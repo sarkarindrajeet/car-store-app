@@ -54,7 +54,7 @@ const Home = async () => {
                   </div>
                 </div>
                 <div className="hero__slider--layer__style4">
-                  <img
+                  <Image
                     className="slider__layer--img "
                     src="/img/slider/home4-slider1-layer.webp"
                     alt="slider-img"
@@ -100,7 +100,7 @@ const Home = async () => {
                   </div>
                 </div>
                 <div className="hero__slider--layer__style4 style__right">
-                  <img
+                  <Image
                     className="slider__layer--img "
                     src="/img/slider/home4-slider2-layer.webp"
                     alt="slider-img"
@@ -146,7 +146,7 @@ const Home = async () => {
                   </div>
                 </div>
                 <div className="hero__slider--layer__style4 style__right">
-                  <img
+                  <Image
                     className="slider__layer--img "
                     src="/img/slider/home4-slider3-layer.webp"
                     alt="slider-img"
@@ -164,7 +164,7 @@ const Home = async () => {
             <div className="col-lg-6 col-md-6 mb-30">
               <div className="banner__items position__relative">
                 <Link className="banner__thumbnail display-block" href="#">
-                  <img
+                  <Image
                     className="banner__thumbnail--img"
                     src="/img/banner/banner16.webp"
                     alt="banner-img"
@@ -202,7 +202,7 @@ const Home = async () => {
             <div className="col-lg-6 col-md-6 mb-30">
               <div className="banner__items position__relative">
                 <Link className="banner__thumbnail display-block" href="#">
-                  <img
+                  <Image
                     className="banner__thumbnail--img"
                     src="/img/banner/banner17.webp"
                     alt="banner-img"
@@ -256,7 +256,7 @@ const Home = async () => {
               >
                 <div className="product__wrapper">
                   <div className="row mb--n30">
-                    {data.map((element) => 
+                    {data.map((element) => (
                       <div
                         key={element.id}
                         className="col-lg-3 col-md-4 col-sm-6 col-6 custom-col mb-30"
@@ -267,13 +267,13 @@ const Home = async () => {
                               className="product__card--thumbnail__link display-block"
                               href={`/details/${element.id}`}
                             >
-                              <img
+                              <Image
                                 className="product__card--thumbnail__img product__primary--img"
                                 src={element.avatar}
                                 alt="product-img"
                               />
 
-                              <img
+                              <Image
                                 className="product__card--thumbnail__img product__secondary--img"
                                 src={element.avatar}
                                 alt="product-img"
@@ -382,7 +382,7 @@ const Home = async () => {
                           </div>
                         </article>
                       </div>
-                    )}
+                    ))}
                   </div>
                 </div>
               </div>
