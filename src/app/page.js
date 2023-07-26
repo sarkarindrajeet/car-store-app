@@ -256,7 +256,7 @@ const Home = async () => {
               >
                 <div className="product__wrapper">
                   <div className="row mb--n30">
-                    {data.map((element) => (
+                    {data.map((element) => 
                       <div
                         key={element.id}
                         className="col-lg-3 col-md-4 col-sm-6 col-6 custom-col mb-30"
@@ -271,9 +271,8 @@ const Home = async () => {
                                 className="product__card--thumbnail__img product__primary--img"
                                 src={element.avatar}
                                 alt="product-img"
-                                width={40}
-                                height={40}
                               />
+
                               <img
                                 className="product__card--thumbnail__img product__secondary--img"
                                 src={element.avatar}
@@ -383,7 +382,7 @@ const Home = async () => {
                           </div>
                         </article>
                       </div>
-                    ))}
+                    )}
                   </div>
                 </div>
               </div>
