@@ -54,7 +54,7 @@ const Home = async () => {
                   </div>
                 </div>
                 <div className="hero__slider--layer__style4">
-                  <Image
+                  <img
                     className="slider__layer--img "
                     src="/img/slider/home4-slider1-layer.webp"
                     alt="slider-img"
@@ -100,7 +100,7 @@ const Home = async () => {
                   </div>
                 </div>
                 <div className="hero__slider--layer__style4 style__right">
-                  <Image
+                  <img
                     className="slider__layer--img "
                     src="/img/slider/home4-slider2-layer.webp"
                     alt="slider-img"
@@ -146,7 +146,7 @@ const Home = async () => {
                   </div>
                 </div>
                 <div className="hero__slider--layer__style4 style__right">
-                  <Image
+                  <img
                     className="slider__layer--img "
                     src="/img/slider/home4-slider3-layer.webp"
                     alt="slider-img"
@@ -164,7 +164,7 @@ const Home = async () => {
             <div className="col-lg-6 col-md-6 mb-30">
               <div className="banner__items position__relative">
                 <Link className="banner__thumbnail display-block" href="#">
-                  <Image
+                  <img
                     className="banner__thumbnail--img"
                     src="/img/banner/banner16.webp"
                     alt="banner-img"
@@ -202,7 +202,7 @@ const Home = async () => {
             <div className="col-lg-6 col-md-6 mb-30">
               <div className="banner__items position__relative">
                 <Link className="banner__thumbnail display-block" href="#">
-                  <Image
+                  <img
                     className="banner__thumbnail--img"
                     src="/img/banner/banner17.webp"
                     alt="banner-img"
@@ -267,13 +267,13 @@ const Home = async () => {
                               className="product__card--thumbnail__link display-block"
                               href={`/details/${element.id}`}
                             >
-                              <Image
+                              <img
                                 className="product__card--thumbnail__img product__primary--img"
                                 src={element.avatar}
                                 alt="product-img"
                               />
 
-                              <Image
+                              <img
                                 className="product__card--thumbnail__img product__secondary--img"
                                 src={element.avatar}
                                 alt="product-img"
